@@ -1,4 +1,6 @@
 import Todo from "./components/Todo";
+import Modal from "./components/Modal";
+import Backdrop from "./components/Backdrop";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
     <Todo text='Learn Angular'/>
     <Todo text='Learn Vue'/>
     <Todo text='Look At Courses'/>
+    <Modal />
+    <Backdrop />
   </div>
   );
 }
